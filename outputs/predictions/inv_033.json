@@ -1,0 +1,27 @@
+{
+  "source_file": "inv_033.png",
+  "data": {
+    "invoice_number": null,
+    "invoice_date": null,
+    "vendor": null,
+    "line_items": [],
+    "total": null
+  },
+  "field_confidence": {},
+  "review_reasons": {
+    "document": [
+      "processing failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    ]
+  },
+  "fields_to_review": [
+    "invoice_number",
+    "invoice_date",
+    "vendor",
+    "line_items",
+    "total"
+  ],
+  "needs_review": true,
+  "ocr_mean_confidence": null,
+  "model": "claude-sonnet-5-5",
+  "error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+}

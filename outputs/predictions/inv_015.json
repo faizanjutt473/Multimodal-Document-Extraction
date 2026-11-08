@@ -1,0 +1,30 @@
+{
+  "source_file": "inv_015.png",
+  "data": {
+    "invoice_number": "56514066",
+    "invoice_date": "2014-05-14",
+    "vendor": "Snyder, Williams and Walter",
+    "line_items": [
+      {
+        "description": "Lilly Pulitzer XS Spike the Punch Cassie Cotton Dress with Quarter Sleeves",
+        "quantity": 1.0,
+        "unit_price": 44.89,
+        "amount": 49.38
+      }
+    ],
+    "total": 49.38
+  },
+  "field_confidence": {
+    "invoice_number": 0.994,
+    "invoice_date": 0.994,
+    "vendor": 0.994,
+    "line_items": 0.994,
+    "total": 0.994
+  },
+  "review_reasons": {},
+  "fields_to_review": [],
+  "needs_review": false,
+  "ocr_mean_confidence": 94.1,
+  "model": "claude-sonnet-5-5",
+  "error": null
+}

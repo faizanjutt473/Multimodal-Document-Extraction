@@ -1,0 +1,48 @@
+{
+  "source_file": "inv_004.png",
+  "data": {
+    "invoice_number": "26020078",
+    "invoice_date": "2019-11-19",
+    "vendor": "Johnson, Coleman and Mccarthy",
+    "line_items": [
+      {
+        "description": "The Children’s Place Brown Dress Boy Lace Up Shoes Size 12",
+        "quantity": 1.0,
+        "unit_price": 8.0,
+        "amount": 8.8
+      },
+      {
+        "description": "All Mattel Disney Pixar Model Cars McQueen 1:55 Diecast Lot Choose Loose Kid Toy",
+        "quantity": 5.0,
+        "unit_price": 12.99,
+        "amount": 71.45
+      },
+      {
+        "description": "KushyShoo Children Kid Rain Boot Shoes Rubber, Monkey, Size Youth 1",
+        "quantity": 1.0,
+        "unit_price": 22.99,
+        "amount": 25.29
+      },
+      {
+        "description": "Western Chief Kids' Boys Classic Rain Boots w/ Pull Handles Navy Blue Size 12",
+        "quantity": 1.0,
+        "unit_price": 9.99,
+        "amount": 10.99
+      }
+    ],
+    "total": 116.52
+  },
+  "field_confidence": {
+    "invoice_number": 0.994,
+    "invoice_date": 0.994,
+    "vendor": 0.994,
+    "line_items": 0.988,
+    "total": 0.994
+  },
+  "review_reasons": {},
+  "fields_to_review": [],
+  "needs_review": false,
+  "ocr_mean_confidence": 93.5,
+  "model": "claude-sonnet-5-5",
+  "error": null
+}

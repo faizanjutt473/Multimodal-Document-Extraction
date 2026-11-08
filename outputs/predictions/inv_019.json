@@ -1,0 +1,70 @@
+{
+  "source_file": "inv_019.png",
+  "data": {
+    "invoice_number": "94133236",
+    "invoice_date": "2019-12-12",
+    "vendor": "Parker Inc",
+    "line_items": [
+      {
+        "description": "6'x3' Black Marble Top Dining Room Table Sets Scagaliola Very Pietradure Decor",
+        "quantity": 5.0,
+        "unit_price": 5710.22,
+        "amount": 31406.21
+      },
+      {
+        "description": "16\"x16\" Marble Top Customize Table Lapis Lazuli Marquetry Inlaid Halloween Gift",
+        "quantity": 3.0,
+        "unit_price": 800.0,
+        "amount": 2640.0
+      },
+      {
+        "description": "12\" Marble Coffee Side Table Top Lapis Peacock Floral Inlay Bedroom Decors W019",
+        "quantity": 5.0,
+        "unit_price": 248.78,
+        "amount": 1368.29
+      },
+      {
+        "description": "12\" White Marble Coffee Table Top Marquetry Multi Inlay Beautiful Room Home Arts",
+        "quantity": 5.0,
+        "unit_price": 398.76,
+        "amount": 2193.18
+      },
+      {
+        "description": "30\"x30\" Marble Black Top Table Semi Precious Bird Art Black Friday Gift Décor",
+        "quantity": 2.0,
+        "unit_price": 2399.0,
+        "amount": 5277.8
+      },
+      {
+        "description": "Antique Vintage style hand carved table *Unique*",
+        "quantity": 5.0,
+        "unit_price": 13000.0,
+        "amount": 71500.0
+      }
+    ],
+    "total": 114385.48
+  },
+  "field_confidence": {
+    "invoice_number": 0.994,
+    "invoice_date": 0.994,
+    "vendor": 0.994,
+    "line_items": 0.588,
+    "total": 0.594
+  },
+  "review_reasons": {
+    "line_items": [
+      "value not confirmed by independent OCR text"
+    ],
+    "total": [
+      "value not confirmed by independent OCR text"
+    ]
+  },
+  "fields_to_review": [
+    "line_items",
+    "total"
+  ],
+  "needs_review": true,
+  "ocr_mean_confidence": 93.8,
+  "model": "claude-sonnet-5-5",
+  "error": null
+}

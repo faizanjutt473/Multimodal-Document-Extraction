@@ -1,0 +1,60 @@
+{
+  "source_file": "inv_025.png",
+  "data": {
+    "invoice_number": "72346654",
+    "invoice_date": "2015-10-25",
+    "vendor": "Malone-Lopez",
+    "line_items": [
+      {
+        "description": "NWT Women's MAX EDITION Classy Gray Knit Stretch Dress side bow tie ¾ sleeve XL",
+        "quantity": 3.0,
+        "unit_price": 12.5,
+        "amount": 41.25
+      },
+      {
+        "description": "Rebecca Minkoff Black Polyester Fringe and Lambskin Dress Sz 12",
+        "quantity": 2.0,
+        "unit_price": 9.99,
+        "amount": 21.98
+      },
+      {
+        "description": "balmain dress 36",
+        "quantity": 4.0,
+        "unit_price": 1550.0,
+        "amount": 6820.0
+      },
+      {
+        "description": "sandro dress",
+        "quantity": 5.0,
+        "unit_price": 80.0,
+        "amount": 440.0
+      },
+      {
+        "description": "Kate Spade NY Sleeveless Ponte Fit & Flare Solid Black Dress Size 6",
+        "quantity": 2.0,
+        "unit_price": 49.99,
+        "amount": 109.98
+      }
+    ],
+    "total": 7433.21
+  },
+  "field_confidence": {
+    "invoice_number": 0.994,
+    "invoice_date": 0.994,
+    "vendor": 0.994,
+    "line_items": 0.908,
+    "total": 0.594
+  },
+  "review_reasons": {
+    "total": [
+      "value not confirmed by independent OCR text"
+    ]
+  },
+  "fields_to_review": [
+    "total"
+  ],
+  "needs_review": true,
+  "ocr_mean_confidence": 93.5,
+  "model": "claude-sonnet-5-5",
+  "error": null
+}

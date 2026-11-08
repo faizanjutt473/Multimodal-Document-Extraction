@@ -1,0 +1,42 @@
+{
+  "source_file": "inv_032.png",
+  "data": {
+    "invoice_number": "34911755",
+    "invoice_date": "2019-01-30",
+    "vendor": "Graham, Floyd and Johnson",
+    "line_items": [
+      {
+        "description": "Metal Storage Shelf Wine Glass Rack Wine Glasses for The Cabinet",
+        "quantity": 5.0,
+        "unit_price": 22.42,
+        "amount": 123.31
+      },
+      {
+        "description": "Wine Things Unlimited - Tipsy Wine Elf - Pewter Wine Bottle Stopper/Cork",
+        "quantity": 1.0,
+        "unit_price": 8.99,
+        "amount": 9.89
+      },
+      {
+        "description": "Set of 2 Stemless Christmas Wine Glasses NEW",
+        "quantity": 5.0,
+        "unit_price": 12.0,
+        "amount": 66.0
+      }
+    ],
+    "total": 199.2
+  },
+  "field_confidence": {
+    "invoice_number": 0.994,
+    "invoice_date": 0.994,
+    "vendor": 0.994,
+    "line_items": 0.988,
+    "total": 0.994
+  },
+  "review_reasons": {},
+  "fields_to_review": [],
+  "needs_review": false,
+  "ocr_mean_confidence": 93.1,
+  "model": "claude-sonnet-5-5",
+  "error": null
+}

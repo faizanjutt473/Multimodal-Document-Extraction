@@ -1,0 +1,42 @@
+{
+  "source_file": "inv_031.png",
+  "data": {
+    "invoice_number": "20850516",
+    "invoice_date": "2017-07-10",
+    "vendor": "Carney-Rogers",
+    "line_items": [
+      {
+        "description": "Jordan B'Loyal Boys Grade School Sneakers US 3Y",
+        "quantity": 4.0,
+        "unit_price": 9.0,
+        "amount": 39.6
+      },
+      {
+        "description": "Western Chief Kids' Boys Classic Rain Boots w/ Pull Handles Navy Blue Size 12",
+        "quantity": 1.0,
+        "unit_price": 9.99,
+        "amount": 10.99
+      },
+      {
+        "description": "Hot Toys COSB748 Mandalorian & The Child COSBABY Mini Figure Model Collection",
+        "quantity": 4.0,
+        "unit_price": 32.89,
+        "amount": 144.72
+      }
+    ],
+    "total": 195.31
+  },
+  "field_confidence": {
+    "invoice_number": 0.994,
+    "invoice_date": 0.994,
+    "vendor": 0.994,
+    "line_items": 0.994,
+    "total": 0.994
+  },
+  "review_reasons": {},
+  "fields_to_review": [],
+  "needs_review": false,
+  "ocr_mean_confidence": 93.4,
+  "model": "claude-sonnet-5-5",
+  "error": null
+}

@@ -1,0 +1,30 @@
+{
+  "source_file": "inv_000.png",
+  "data": {
+    "invoice_number": "40378170",
+    "invoice_date": "2012-10-15",
+    "vendor": "Patel, Thompson and Montgomery",
+    "line_items": [
+      {
+        "description": "Leed's Wine Companion Bottle Corkscrew Opener Gift Box Set with Foil Cutter",
+        "quantity": 1.0,
+        "unit_price": 7.5,
+        "amount": 8.25
+      }
+    ],
+    "total": 8.25
+  },
+  "field_confidence": {
+    "invoice_number": 0.994,
+    "invoice_date": 0.994,
+    "vendor": 0.994,
+    "line_items": 0.994,
+    "total": 0.994
+  },
+  "review_reasons": {},
+  "fields_to_review": [],
+  "needs_review": false,
+  "ocr_mean_confidence": 94.4,
+  "model": "claude-sonnet-5-5",
+  "error": null
+}

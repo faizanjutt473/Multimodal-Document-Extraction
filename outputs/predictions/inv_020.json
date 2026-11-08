@@ -1,0 +1,54 @@
+{
+  "source_file": "inv_020.png",
+  "data": {
+    "invoice_number": "51686132",
+    "invoice_date": "2015-06-27",
+    "vendor": "Stephens PLC",
+    "line_items": [
+      {
+        "description": "Nintendo Switch Lite Console - Gray - with Animal Crossing New Horizons Game",
+        "quantity": 3.0,
+        "unit_price": 310.0,
+        "amount": 1023.0
+      },
+      {
+        "description": "Nintendo Wii U Console Deluxe/Handheld Bundle",
+        "quantity": 1.0,
+        "unit_price": 79.99,
+        "amount": 87.99
+      },
+      {
+        "description": "Nintendo Wii U WUP-101(02) 32GB Console - Black - US Model",
+        "quantity": 3.0,
+        "unit_price": 40.0,
+        "amount": 132.0
+      },
+      {
+        "description": "Nintendo Wii Console With Cables And Accessories And New Super Mario Bros Disc!",
+        "quantity": 4.0,
+        "unit_price": 29.99,
+        "amount": 131.96
+      },
+      {
+        "description": "Nintendo Switch Lite Yellow CONSOLE ONLY - No Accessories or Charger [B1-2]",
+        "quantity": 1.0,
+        "unit_price": 135.0,
+        "amount": 148.5
+      }
+    ],
+    "total": 1523.45
+  },
+  "field_confidence": {
+    "invoice_number": 0.994,
+    "invoice_date": 0.994,
+    "vendor": 0.994,
+    "line_items": 0.914,
+    "total": 0.994
+  },
+  "review_reasons": {},
+  "fields_to_review": [],
+  "needs_review": false,
+  "ocr_mean_confidence": 92.8,
+  "model": "claude-sonnet-5-5",
+  "error": null
+}

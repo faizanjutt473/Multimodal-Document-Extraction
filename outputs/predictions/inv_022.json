@@ -1,0 +1,42 @@
+{
+  "source_file": "inv_022.png",
+  "data": {
+    "invoice_number": "49923258",
+    "invoice_date": "2011-10-26",
+    "vendor": "Watson LLC",
+    "line_items": [
+      {
+        "description": "Original Nintendo Gaming Console with Robot, 9 games & extras",
+        "quantity": 1.0,
+        "unit_price": 475.0,
+        "amount": 522.5
+      },
+      {
+        "description": "Nintendo Switch Gaming Console W/ Neon Blue & Red Controllers,Carry Case,Cable",
+        "quantity": 2.0,
+        "unit_price": 300.0,
+        "amount": 660.0
+      }
+    ],
+    "total": 1182.5
+  },
+  "field_confidence": {
+    "invoice_number": 0.994,
+    "invoice_date": 0.994,
+    "vendor": 0.994,
+    "line_items": 0.994,
+    "total": 0.594
+  },
+  "review_reasons": {
+    "total": [
+      "value not confirmed by independent OCR text"
+    ]
+  },
+  "fields_to_review": [
+    "total"
+  ],
+  "needs_review": true,
+  "ocr_mean_confidence": 91.2,
+  "model": "claude-sonnet-5-5",
+  "error": null
+}

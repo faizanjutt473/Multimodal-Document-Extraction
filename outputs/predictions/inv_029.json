@@ -1,0 +1,75 @@
+{
+  "source_file": "inv_029.png",
+  "data": {
+    "invoice_number": "12456262",
+    "invoice_date": "2012-02-22",
+    "vendor": "Williams and Sons",
+    "line_items": [
+      {
+        "description": "3 Pieces Fluffy Faux Fur Seat Pads 30cm/12inch Round Pad Floor Carpets",
+        "quantity": 4.0,
+        "unit_price": 14.66,
+        "amount": 64.5
+      },
+      {
+        "description": "Yilong 8x10ft Hand knotted Wool Carpets Home Decor Modern Villa Area Rug P39",
+        "quantity": 3.0,
+        "unit_price": 5040.0,
+        "amount": 16632.0
+      },
+      {
+        "description": "Black+White Rectangle Shape Area Rug Carpet Floor Pad Doormat Mats Non-slip Z4F9",
+        "quantity": 5.0,
+        "unit_price": 21.1,
+        "amount": 116.05
+      },
+      {
+        "description": "Indian Green Red Color 2.6'x4' Carpet Hand Knotted Living Room Traditional Chobi",
+        "quantity": 5.0,
+        "unit_price": 215.0,
+        "amount": 1182.5
+      },
+      {
+        "description": "YILONG 6'x9' Handmade Silk Rug Beige Living Room Luxury Home Decor Carpet 0992",
+        "quantity": 1.0,
+        "unit_price": 12960.0,
+        "amount": 14256.0
+      },
+      {
+        "description": "YILONG 4'x6' Golden Hand Knotted Silk Rugs Antistatic Family Room Carpet 085B",
+        "quantity": 5.0,
+        "unit_price": 4800.0,
+        "amount": 26400.0
+      },
+      {
+        "description": "3D Stones Florals Corridor Carpet Doorway Mat Soft Antislip Living Room Area Rug",
+        "quantity": 1.0,
+        "unit_price": 15.19,
+        "amount": 16.71
+      }
+    ],
+    "total": 58667.76
+  },
+  "field_confidence": {
+    "invoice_number": 0.994,
+    "invoice_date": 0.994,
+    "vendor": 0.994,
+    "line_items": 0.759,
+    "total": 0.594
+  },
+  "review_reasons": {
+    "line_items": [
+      "value not confirmed by independent OCR text"
+    ],
+    "total": [
+      "value not confirmed by independent OCR text"
+    ]
+  },
+  "fields_to_review": [
+    "total"
+  ],
+  "needs_review": true,
+  "ocr_mean_confidence": 94.2,
+  "model": "claude-sonnet-5-5",
+  "error": null
+}

@@ -1,0 +1,30 @@
+{
+  "source_file": "inv_016.png",
+  "data": {
+    "invoice_number": "74322107",
+    "invoice_date": "2016-02-02",
+    "vendor": "Davis-Obrien",
+    "line_items": [
+      {
+        "description": "100cm Nordic Round Area Rug Abstract Geometric Patterns Non-Slip Floor Carpet",
+        "quantity": 2.0,
+        "unit_price": 30.98,
+        "amount": 68.16
+      }
+    ],
+    "total": 68.16
+  },
+  "field_confidence": {
+    "invoice_number": 0.994,
+    "invoice_date": 0.994,
+    "vendor": 0.994,
+    "line_items": 0.994,
+    "total": 0.994
+  },
+  "review_reasons": {},
+  "fields_to_review": [],
+  "needs_review": false,
+  "ocr_mean_confidence": 94.0,
+  "model": "claude-sonnet-5-5",
+  "error": null
+}

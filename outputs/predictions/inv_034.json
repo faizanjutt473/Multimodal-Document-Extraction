@@ -1,0 +1,60 @@
+{
+  "source_file": "inv_034.png",
+  "data": {
+    "invoice_number": "93411242",
+    "invoice_date": "2017-01-07",
+    "vendor": "Harrison-Harris",
+    "line_items": [
+      {
+        "description": "Fast HP Desktop Computer Intel Processor 4GB 160GB 17\" LCD DVD Wifi Windows 10",
+        "quantity": 4.0,
+        "unit_price": 99.95,
+        "amount": 439.78
+      },
+      {
+        "description": "Fast Dell Optiplex Windows 10 Desktop Computer Tower PC Core i3 3.1GHz 4GB 320GB",
+        "quantity": 5.0,
+        "unit_price": 89.95,
+        "amount": 494.73
+      },
+      {
+        "description": "Dell Optiplex 390 i5 3.10Ghz Quad Core Computer w/4Gb RAM DVDRW noHD Free Ship",
+        "quantity": 4.0,
+        "unit_price": 84.99,
+        "amount": 373.96
+      },
+      {
+        "description": "Dell Desktop Computer Tower Optiplex Core i5 8GB 1TB HD DVD Wifi Windows 10 Pro",
+        "quantity": 3.0,
+        "unit_price": 169.95,
+        "amount": 560.83
+      },
+      {
+        "description": "Custom Gaming Computer Ryzen 7 2700 32GB DDR4 Nvidia RTX 2060 RGB SSD 500GB HDD",
+        "quantity": 5.0,
+        "unit_price": 1092.27,
+        "amount": 6007.49
+      }
+    ],
+    "total": 7876.78
+  },
+  "field_confidence": {
+    "invoice_number": 0.994,
+    "invoice_date": 0.994,
+    "vendor": 0.994,
+    "line_items": 0.908,
+    "total": 0.594
+  },
+  "review_reasons": {
+    "total": [
+      "value not confirmed by independent OCR text"
+    ]
+  },
+  "fields_to_review": [
+    "total"
+  ],
+  "needs_review": true,
+  "ocr_mean_confidence": 92.3,
+  "model": "claude-sonnet-5-5",
+  "error": null
+}

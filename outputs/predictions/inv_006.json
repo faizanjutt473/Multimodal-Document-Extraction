@@ -1,0 +1,66 @@
+{
+  "source_file": "inv_006.png",
+  "data": {
+    "invoice_number": "94689364",
+    "invoice_date": "2015-01-12",
+    "vendor": "Schwartz, Flynn and Jackson",
+    "line_items": [
+      {
+        "description": "Yilong 5'x8' Handknotted Silk Area Rug Home Decor Kid Friendly Carpet L39B",
+        "quantity": 4.0,
+        "unit_price": 8000.0,
+        "amount": 35200.0
+      },
+      {
+        "description": "Faux Fur Animal Print Hide Skin Rug Cowhide Area Rug Floor Mat Carpet 33.5\"X43\"",
+        "quantity": 4.0,
+        "unit_price": 26.03,
+        "amount": 114.53
+      },
+      {
+        "description": "Garden Flower Carpet Quilted Bedroom Floor Princess Tapis Lace Rug Carpets",
+        "quantity": 5.0,
+        "unit_price": 45.5,
+        "amount": 250.25
+      },
+      {
+        "description": "Double Dorje Carpet Tibetan Rug Handwoven by Artisans in Nepal",
+        "quantity": 3.0,
+        "unit_price": 297.0,
+        "amount": 980.1
+      },
+      {
+        "description": "Egg Bathroom Rug Carpet Area Rugs Rug Floor Mats Nordic Chic Room Decor",
+        "quantity": 2.0,
+        "unit_price": 68.1,
+        "amount": 149.82
+      },
+      {
+        "description": "Striped Contemporary Gabbeh Kashkoli Oriental Area Rug Handmade Wool Carpet 6x8",
+        "quantity": 1.0,
+        "unit_price": 417.24,
+        "amount": 458.96
+      }
+    ],
+    "total": 37153.67
+  },
+  "field_confidence": {
+    "invoice_number": 0.994,
+    "invoice_date": 0.994,
+    "vendor": 0.994,
+    "line_items": 0.921,
+    "total": 0.594
+  },
+  "review_reasons": {
+    "total": [
+      "value not confirmed by independent OCR text"
+    ]
+  },
+  "fields_to_review": [
+    "total"
+  ],
+  "needs_review": true,
+  "ocr_mean_confidence": 94.3,
+  "model": "claude-sonnet-5-5",
+  "error": null
+}

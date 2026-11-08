@@ -1,0 +1,6 @@
+field,correct,total,accuracy,flagged_rate,accuracy_not_flagged,errors_caught_by_flagging
+invoice_number,31,31,1.0,0.0,1.0,
+invoice_date,31,31,1.0,0.0,1.0,
+vendor,31,31,1.0,0.0,1.0,
+line_items,31,31,1.0,0.0967741935483871,1.0,
+total,31,31,1.0,0.3870967741935484,1.0,

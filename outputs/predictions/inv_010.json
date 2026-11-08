@@ -1,0 +1,60 @@
+{
+  "source_file": "inv_010.png",
+  "data": {
+    "invoice_number": "39280409",
+    "invoice_date": "2014-07-06",
+    "vendor": "Davis PLC",
+    "line_items": [
+      {
+        "description": "Chindi Rugs Carpet New Design Bohemian Garden Yoga Mat Indian Kilim Counterpane",
+        "quantity": 2.0,
+        "unit_price": 29.99,
+        "amount": 65.98
+      },
+      {
+        "description": "Xmas Christmas Rug Carpet Cartoon Bedroom Kids Play Mat Soft Flannel Area Rugs @",
+        "quantity": 3.0,
+        "unit_price": 37.31,
+        "amount": 123.12
+      },
+      {
+        "description": "Bohemian Rag Rug- Woven Chindi Dari Living Room Rug / Hand-Woven Carpet Rug-Mats",
+        "quantity": 2.0,
+        "unit_price": 23.39,
+        "amount": 51.46
+      },
+      {
+        "description": "Rug Beni Ourain, Moroccan Handmade 100% Wool Area Rug Berber Beni Ouarain Carpet",
+        "quantity": 3.0,
+        "unit_price": 450.0,
+        "amount": 1485.0
+      },
+      {
+        "description": "40x120CM Christmas Door Mat Kitchen Floor Area Rug Bedroom Living Room Carpet",
+        "quantity": 2.0,
+        "unit_price": 18.99,
+        "amount": 41.78
+      }
+    ],
+    "total": 1767.34
+  },
+  "field_confidence": {
+    "invoice_number": 0.994,
+    "invoice_date": 0.994,
+    "vendor": 0.994,
+    "line_items": 0.914,
+    "total": 0.594
+  },
+  "review_reasons": {
+    "total": [
+      "value not confirmed by independent OCR text"
+    ]
+  },
+  "fields_to_review": [
+    "total"
+  ],
+  "needs_review": true,
+  "ocr_mean_confidence": 94.3,
+  "model": "claude-sonnet-5-5",
+  "error": null
+}

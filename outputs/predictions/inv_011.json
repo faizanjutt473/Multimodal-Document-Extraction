@@ -1,0 +1,42 @@
+{
+  "source_file": "inv_011.png",
+  "data": {
+    "invoice_number": "87278875",
+    "invoice_date": "2019-07-06",
+    "vendor": "Jackson-Martinez",
+    "line_items": [
+      {
+        "description": "Skechers Hypno Splash Light Up Shoes Size 4 Medium Big Kid New",
+        "quantity": 1.0,
+        "unit_price": 24.99,
+        "amount": 27.49
+      },
+      {
+        "description": "4 pcs Kids Size Cartoon Peppa Pink Pig Cotton Face Masks Mouth Cover Washable",
+        "quantity": 2.0,
+        "unit_price": 11.88,
+        "amount": 26.14
+      },
+      {
+        "description": "Joma Boys Youth Gol-102 Soccer Cleats Shoes Size 1.5 White Red 1.5Y NEW",
+        "quantity": 1.0,
+        "unit_price": 19.99,
+        "amount": 21.99
+      }
+    ],
+    "total": 75.61
+  },
+  "field_confidence": {
+    "invoice_number": 0.994,
+    "invoice_date": 0.994,
+    "vendor": 0.994,
+    "line_items": 0.988,
+    "total": 0.994
+  },
+  "review_reasons": {},
+  "fields_to_review": [],
+  "needs_review": false,
+  "ocr_mean_confidence": 94.1,
+  "model": "claude-sonnet-5-5",
+  "error": null
+}

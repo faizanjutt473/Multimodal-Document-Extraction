@@ -1,0 +1,36 @@
+{
+  "source_file": "inv_005.png",
+  "data": {
+    "invoice_number": "42485588",
+    "invoice_date": "2012-03-15",
+    "vendor": "Zuniga and Sons",
+    "line_items": [
+      {
+        "description": "3 Gal 12L Moonshine Still Stainless Steel Water Wine Alcohol Distiller Equipment",
+        "quantity": 1.0,
+        "unit_price": 99.92,
+        "amount": 109.91
+      },
+      {
+        "description": "Custom wine glass",
+        "quantity": 5.0,
+        "unit_price": 19.0,
+        "amount": 104.5
+      }
+    ],
+    "total": 214.41
+  },
+  "field_confidence": {
+    "invoice_number": 0.994,
+    "invoice_date": 0.994,
+    "vendor": 0.994,
+    "line_items": 0.988,
+    "total": 0.994
+  },
+  "review_reasons": {},
+  "fields_to_review": [],
+  "needs_review": false,
+  "ocr_mean_confidence": 93.6,
+  "model": "claude-sonnet-5-5",
+  "error": null
+}

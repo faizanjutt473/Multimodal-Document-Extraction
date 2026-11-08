@@ -1,0 +1,76 @@
+{
+  "source_file": "inv_021.png",
+  "data": {
+    "invoice_number": "38829380",
+    "invoice_date": "2017-12-25",
+    "vendor": "Cook LLC",
+    "line_items": [
+      {
+        "description": "48 Inches Marble Dinning Table Top Hand Crafted Conference Table with Royal Look",
+        "quantity": 3.0,
+        "unit_price": 2952.0,
+        "amount": 9741.6
+      },
+      {
+        "description": "14 Inches Black Marble Coffee Cum Chess Board Table Top with Unique Design",
+        "quantity": 3.0,
+        "unit_price": 225.25,
+        "amount": 743.33
+      },
+      {
+        "description": "12\" White Marble Coffee Table Top Malachite Precious Inlay Decor Furniture W534",
+        "quantity": 2.0,
+        "unit_price": 295.73,
+        "amount": 650.61
+      },
+      {
+        "description": "12\" Marble Coffee Side Table Top Lapis Peacock Floral Inlay Bedroom Decors W019",
+        "quantity": 4.0,
+        "unit_price": 248.78,
+        "amount": 1094.63
+      },
+      {
+        "description": "12\"x12\" Wild Agate Stone Side Coffee Table Top Handicrafted Kitchen Decors A042",
+        "quantity": 4.0,
+        "unit_price": 259.77,
+        "amount": 1142.99
+      },
+      {
+        "description": "36 Inches Marble Dinning Table Top Inlay Meeting Table with Semi Precious Stone",
+        "quantity": 1.0,
+        "unit_price": 1874.25,
+        "amount": 2061.68
+      },
+      {
+        "description": "26\"x26\" Marble Black Top Coffee Table Inlay Floral Pietradura Art Christmas Gift",
+        "quantity": 2.0,
+        "unit_price": 1489.0,
+        "amount": 3275.8
+      }
+    ],
+    "total": 18710.63
+  },
+  "field_confidence": {
+    "invoice_number": 0.994,
+    "invoice_date": 0.994,
+    "vendor": 0.994,
+    "line_items": 0.702,
+    "total": 0.594
+  },
+  "review_reasons": {
+    "line_items": [
+      "value not confirmed by independent OCR text"
+    ],
+    "total": [
+      "value not confirmed by independent OCR text"
+    ]
+  },
+  "fields_to_review": [
+    "line_items",
+    "total"
+  ],
+  "needs_review": true,
+  "ocr_mean_confidence": 93.8,
+  "model": "claude-sonnet-5-5",
+  "error": null
+}

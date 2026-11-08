@@ -1,0 +1,30 @@
+{
+  "source_file": "inv_017.png",
+  "data": {
+    "invoice_number": "33931957",
+    "invoice_date": "2015-12-17",
+    "vendor": "Rojas-Cook",
+    "line_items": [
+      {
+        "description": "NWT Women's MAX EDITION Classy Gray Knit Stretch Dress side bow tie ¾ sleeve XL",
+        "quantity": 2.0,
+        "unit_price": 12.5,
+        "amount": 27.5
+      }
+    ],
+    "total": 27.5
+  },
+  "field_confidence": {
+    "invoice_number": 0.994,
+    "invoice_date": 0.994,
+    "vendor": 0.994,
+    "line_items": 0.97,
+    "total": 0.994
+  },
+  "review_reasons": {},
+  "fields_to_review": [],
+  "needs_review": false,
+  "ocr_mean_confidence": 93.6,
+  "model": "claude-sonnet-5-5",
+  "error": null
+}

@@ -1,0 +1,36 @@
+{
+  "source_file": "inv_030.png",
+  "data": {
+    "invoice_number": "40703934",
+    "invoice_date": "2016-03-10",
+    "vendor": "Morales LLC",
+    "line_items": [
+      {
+        "description": "Victorian European Country Traditional Floral Floor Mat Area Rug Carpet Beige U",
+        "quantity": 1.0,
+        "unit_price": 178.0,
+        "amount": 195.8
+      },
+      {
+        "description": "Round Rug Carpet For Living Room Decor Faux Fur Rugs Kids Room Long Plush Rugs",
+        "quantity": 4.0,
+        "unit_price": 9.87,
+        "amount": 43.43
+      }
+    ],
+    "total": 239.23
+  },
+  "field_confidence": {
+    "invoice_number": 0.994,
+    "invoice_date": 0.994,
+    "vendor": 0.994,
+    "line_items": 0.988,
+    "total": 0.994
+  },
+  "review_reasons": {},
+  "fields_to_review": [],
+  "needs_review": false,
+  "ocr_mean_confidence": 94.3,
+  "model": "claude-sonnet-5-5",
+  "error": null
+}

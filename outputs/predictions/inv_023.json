@@ -1,0 +1,60 @@
+{
+  "source_file": "inv_023.png",
+  "data": {
+    "invoice_number": "78566408",
+    "invoice_date": "2016-03-18",
+    "vendor": "Clark PLC",
+    "line_items": [
+      {
+        "description": "Oomphies Boys Ankle Boots Shoes Gray Green Kids Size 2 EUC",
+        "quantity": 2.0,
+        "unit_price": 11.99,
+        "amount": 26.38
+      },
+      {
+        "description": "Boys water/beach/pool black orange and blue hook and loop size 13-1 shoes",
+        "quantity": 2.0,
+        "unit_price": 1.18,
+        "amount": 2.6
+      },
+      {
+        "description": "Lotto Soccer Turf Shoes 6 Black Vincente Turf Jr Indoor Outdoor Futbol Cleats",
+        "quantity": 3.0,
+        "unit_price": 19.99,
+        "amount": 65.97
+      },
+      {
+        "description": "Blueteeth LED Galaxy Projector Starry Night Lamp Star Projection Night Light USB",
+        "quantity": 1.0,
+        "unit_price": 28.49,
+        "amount": 31.34
+      },
+      {
+        "description": "Joma Boys Youth Gol-102 Soccer Cleats Shoes Size 4 White Red Futbol NEW",
+        "quantity": 3.0,
+        "unit_price": 19.99,
+        "amount": 65.97
+      },
+      {
+        "description": "Adult Kids Pokemon Pikachu Kigurumi Pajama Cosplay Christmas Costume Sleepwear",
+        "quantity": 2.0,
+        "unit_price": 16.56,
+        "amount": 36.43
+      }
+    ],
+    "total": 228.68
+  },
+  "field_confidence": {
+    "invoice_number": 0.994,
+    "invoice_date": 0.994,
+    "vendor": 0.994,
+    "line_items": 0.988,
+    "total": 0.994
+  },
+  "review_reasons": {},
+  "fields_to_review": [],
+  "needs_review": false,
+  "ocr_mean_confidence": 94.7,
+  "model": "claude-sonnet-5-5",
+  "error": null
+}

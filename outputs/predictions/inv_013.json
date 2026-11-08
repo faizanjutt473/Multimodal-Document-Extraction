@@ -1,0 +1,70 @@
+{
+  "source_file": "inv_013.png",
+  "data": {
+    "invoice_number": "76999802",
+    "invoice_date": "2020-07-14",
+    "vendor": "Nolan, Williams and Roach",
+    "line_items": [
+      {
+        "description": "26\"x26\" Marble Black Top Coffee Table Inlay Floral Pietradura Art Christmas Gift",
+        "quantity": 1.0,
+        "unit_price": 1489.0,
+        "amount": 1637.9
+      },
+      {
+        "description": "October Mist - Deer Metal Side Table by Rosemary Millette",
+        "quantity": 4.0,
+        "unit_price": 89.95,
+        "amount": 395.78
+      },
+      {
+        "description": "36\" Agate Center Dining Table Top Precious Stone Hallway Furniture Decors A026",
+        "quantity": 4.0,
+        "unit_price": 1490.0,
+        "amount": 6556.0
+      },
+      {
+        "description": "7'x4' Black Marble Pietra dura Dining Table Top Furniture Inlay Patio Decor",
+        "quantity": 5.0,
+        "unit_price": 9649.72,
+        "amount": 53073.46
+      },
+      {
+        "description": "34\"x34\" Marble Round Top Coffee Table Elephant Floral Inlaid Art Christmas Gifts",
+        "quantity": 3.0,
+        "unit_price": 1900.0,
+        "amount": 6270.0
+      },
+      {
+        "description": "Semi precious Stone Work Inlaid Dinning Table Top Marble Kitchen Table 42 Inches",
+        "quantity": 5.0,
+        "unit_price": 2496.0,
+        "amount": 13728.0
+      }
+    ],
+    "total": 81661.14
+  },
+  "field_confidence": {
+    "invoice_number": 0.994,
+    "invoice_date": 0.994,
+    "vendor": 0.994,
+    "line_items": 0.655,
+    "total": 0.594
+  },
+  "review_reasons": {
+    "line_items": [
+      "value not confirmed by independent OCR text"
+    ],
+    "total": [
+      "value not confirmed by independent OCR text"
+    ]
+  },
+  "fields_to_review": [
+    "line_items",
+    "total"
+  ],
+  "needs_review": true,
+  "ocr_mean_confidence": 94.1,
+  "model": "claude-sonnet-5-5",
+  "error": null
+}

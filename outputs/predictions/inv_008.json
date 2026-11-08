@@ -1,0 +1,36 @@
+{
+  "source_file": "inv_008.png",
+  "data": {
+    "invoice_number": "11158119",
+    "invoice_date": "2019-03-23",
+    "vendor": "Moore Ltd",
+    "line_items": [
+      {
+        "description": "confetti wine glass",
+        "quantity": 4.0,
+        "unit_price": 15.0,
+        "amount": 66.0
+      },
+      {
+        "description": "BRAND NEW Metrokane Rabbit Wine Gold Color Tool Kit 6 Piece Set w/Aerator",
+        "quantity": 2.0,
+        "unit_price": 29.99,
+        "amount": 65.98
+      }
+    ],
+    "total": 131.98
+  },
+  "field_confidence": {
+    "invoice_number": 0.994,
+    "invoice_date": 0.994,
+    "vendor": 0.994,
+    "line_items": 0.994,
+    "total": 0.994
+  },
+  "review_reasons": {},
+  "fields_to_review": [],
+  "needs_review": false,
+  "ocr_mean_confidence": 94.3,
+  "model": "claude-sonnet-5-5",
+  "error": null
+}

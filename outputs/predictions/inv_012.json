@@ -1,0 +1,42 @@
+{
+  "source_file": "inv_012.png",
+  "data": {
+    "invoice_number": "53737787",
+    "invoice_date": "2011-12-08",
+    "vendor": "Levy-Vargas",
+    "line_items": [
+      {
+        "description": "Breaking Free from Depression: Pathways to Wellness by Jesse H. Wright (English)",
+        "quantity": 2.0,
+        "unit_price": 32.94,
+        "amount": 72.47
+      },
+      {
+        "description": "The Graphic Design Reference & Specification Book: Everything Graphic Designers",
+        "quantity": 5.0,
+        "unit_price": 20.18,
+        "amount": 110.99
+      },
+      {
+        "description": "Escape from the Carnival of Horrors (Give Yourself Goosebumps) by R. L. Stine",
+        "quantity": 4.0,
+        "unit_price": 5.01,
+        "amount": 22.04
+      }
+    ],
+    "total": 205.5
+  },
+  "field_confidence": {
+    "invoice_number": 1.0,
+    "invoice_date": 1.0,
+    "vendor": 1.0,
+    "line_items": 1.0,
+    "total": 1.0
+  },
+  "review_reasons": {},
+  "fields_to_review": [],
+  "needs_review": false,
+  "ocr_mean_confidence": 93.6,
+  "model": "claude-sonnet-5-5",
+  "error": null
+}

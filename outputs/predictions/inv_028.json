@@ -1,0 +1,36 @@
+{
+  "source_file": "inv_028.png",
+  "data": {
+    "invoice_number": "46775557",
+    "invoice_date": "2019-04-05",
+    "vendor": "Roberts, Smith and Rogers",
+    "line_items": [
+      {
+        "description": "Boden Wren Ponte Midi Dress w/Color Block Hem NWT Size 10P Black Pink 10 Petite",
+        "quantity": 1.0,
+        "unit_price": 58.99,
+        "amount": 64.89
+      },
+      {
+        "description": "Women Black Dress Mori Girl Puff Sleeve Korean Casual Loose Peter Pan Collar",
+        "quantity": 1.0,
+        "unit_price": 13.99,
+        "amount": 15.39
+      }
+    ],
+    "total": 80.28
+  },
+  "field_confidence": {
+    "invoice_number": 0.994,
+    "invoice_date": 0.994,
+    "vendor": 0.994,
+    "line_items": 0.988,
+    "total": 0.994
+  },
+  "review_reasons": {},
+  "fields_to_review": [],
+  "needs_review": false,
+  "ocr_mean_confidence": 94.5,
+  "model": "claude-sonnet-5-5",
+  "error": null
+}

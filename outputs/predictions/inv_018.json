@@ -1,0 +1,72 @@
+{
+  "source_file": "inv_018.png",
+  "data": {
+    "invoice_number": "70372519",
+    "invoice_date": "2013-05-01",
+    "vendor": "Williamson, Murphy and Winters",
+    "line_items": [
+      {
+        "description": "Black Nintendo Wii Console Bundle RVL-101 with 2 Controllers & Cords",
+        "quantity": 3.0,
+        "unit_price": 89.99,
+        "amount": 296.97
+      },
+      {
+        "description": "SONY Playstation2 Console SCPH-39000 \" Aqua Color \" / TESTED 11180",
+        "quantity": 3.0,
+        "unit_price": 60.0,
+        "amount": 198.0
+      },
+      {
+        "description": "Sony PlayStation 5 Console - White - Digital Version - CONFIRMED PRE ORDER PS5",
+        "quantity": 5.0,
+        "unit_price": 630.0,
+        "amount": 3465.0
+      },
+      {
+        "description": "Nintendo Wii Console Mario Kart Controller Wii Fit 2 Board Remotes Game BUNDLE",
+        "quantity": 1.0,
+        "unit_price": 199.97,
+        "amount": 219.97
+      },
+      {
+        "description": "Sega V Saturn Victor Console RG-JX1 Gray Tested Working Japan",
+        "quantity": 2.0,
+        "unit_price": 109.99,
+        "amount": 241.98
+      },
+      {
+        "description": "Super Nintendo SNES System Console SNS-001 with 2 Controllers Cleaned And Tested",
+        "quantity": 1.0,
+        "unit_price": 149.99,
+        "amount": 164.99
+      },
+      {
+        "description": "Retro Arcade Game Console All In One 128G Raspberry PI 4 Model B 4GB Plug Play",
+        "quantity": 2.0,
+        "unit_price": 149.99,
+        "amount": 329.98
+      }
+    ],
+    "total": 4916.88
+  },
+  "field_confidence": {
+    "invoice_number": 0.994,
+    "invoice_date": 0.994,
+    "vendor": 0.994,
+    "line_items": 0.931,
+    "total": 0.594
+  },
+  "review_reasons": {
+    "total": [
+      "value not confirmed by independent OCR text"
+    ]
+  },
+  "fields_to_review": [
+    "total"
+  ],
+  "needs_review": true,
+  "ocr_mean_confidence": 93.1,
+  "model": "claude-sonnet-5-5",
+  "error": null
+}

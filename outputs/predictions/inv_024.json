@@ -1,0 +1,54 @@
+{
+  "source_file": "inv_024.png",
+  "data": {
+    "invoice_number": "95707254",
+    "invoice_date": "2020-07-20",
+    "vendor": "Cobb, Allen and Diaz",
+    "line_items": [
+      {
+        "description": "New KID CUDI \"WZRD\" Rap Hip Hop Soul Music Men's Black T-Shirt Size S to 3XL",
+        "quantity": 5.0,
+        "unit_price": 22.49,
+        "amount": 123.69
+      },
+      {
+        "description": "Sperry Top-Sider Boys Toddlers Lace Tie Boat Shoes Brown 13M New",
+        "quantity": 1.0,
+        "unit_price": 37.69,
+        "amount": 41.46
+      },
+      {
+        "description": "TODDLER SHAQ HIGH TOP SHOES SIZE 4",
+        "quantity": 3.0,
+        "unit_price": 9.99,
+        "amount": 32.97
+      },
+      {
+        "description": "PLAE SAM 2.0 Shoes Sandals Breathable Summer Strap Navy Blue Size 12 Kid",
+        "quantity": 1.0,
+        "unit_price": 15.0,
+        "amount": 16.5
+      },
+      {
+        "description": "Lotto Soccer Turf Shoes 6 Black Vincente Turf Jr Indoor Outdoor Futbol Cleats",
+        "quantity": 4.0,
+        "unit_price": 19.99,
+        "amount": 87.96
+      }
+    ],
+    "total": 302.58
+  },
+  "field_confidence": {
+    "invoice_number": 0.994,
+    "invoice_date": 0.994,
+    "vendor": 0.994,
+    "line_items": 0.988,
+    "total": 0.994
+  },
+  "review_reasons": {},
+  "fields_to_review": [],
+  "needs_review": false,
+  "ocr_mean_confidence": 94.7,
+  "model": "claude-sonnet-5-5",
+  "error": null
+}

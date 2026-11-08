@@ -1,0 +1,42 @@
+{
+  "source_file": "inv_002.png",
+  "data": {
+    "invoice_number": "49565075",
+    "invoice_date": "2019-10-28",
+    "vendor": "Kane-Morgan",
+    "line_items": [
+      {
+        "description": "Anthropologie Gold Elegant Swan Decorative Metal Bottle Stopper Wine Saver",
+        "quantity": 3.0,
+        "unit_price": 19.98,
+        "amount": 65.93
+      },
+      {
+        "description": "Lolita Happy Retirement Wine Glass 15 Ounce GLS11-5534H",
+        "quantity": 1.0,
+        "unit_price": 8.0,
+        "amount": 8.8
+      },
+      {
+        "description": "Lolita \"Congratulations\" Hand Painted and Decorated Wine Glass NIB",
+        "quantity": 1.0,
+        "unit_price": 20.0,
+        "amount": 22.0
+      }
+    ],
+    "total": 96.73
+  },
+  "field_confidence": {
+    "invoice_number": 0.994,
+    "invoice_date": 0.994,
+    "vendor": 0.994,
+    "line_items": 0.988,
+    "total": 0.994
+  },
+  "review_reasons": {},
+  "fields_to_review": [],
+  "needs_review": false,
+  "ocr_mean_confidence": 93.6,
+  "model": "claude-sonnet-5-5",
+  "error": null
+}
