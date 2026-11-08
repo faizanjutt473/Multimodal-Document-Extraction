@@ -1,0 +1,21 @@
+# Core
+pydantic>=2.5
+pytesseract>=0.3.10
+Pillow>=10.0
+opencv-python-headless>=4.8
+numpy>=1.24
+PyMuPDF>=1.23
+python-dotenv>=1.0
+pandas>=2.0
+rapidfuzz>=3.5
+google-genai>=1.0
+
+# Optional: only if you use LLM_PROVIDER=anthropic
+# anthropic>=0.40
+
+# Dataset download (only needed once)
+datasets>=2.18
+
+# Dev / optional
+pytest>=7.4
+streamlit>=1.30
